@@ -11,8 +11,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: red;
-    
-    
+        
 }
 
 #cabeca{
@@ -50,16 +49,30 @@ ul{
     border-radius: 10px 10px 0px 0px;
 
 }
+a{
+text-decoration: none;
+color: white;
+
+}
 
 #corpo{
     background-color: red;
+    width: 50%;
+    padding: 10px;
     color: white;
     width: 100%;
     display: flex;
- 
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 25px;
 
+}
+#fundo{
+
+    background-color: blue;
+    font-size: 15px;
+    text-align: center;
+    width: 100%;
+    color: #fff;
 }
